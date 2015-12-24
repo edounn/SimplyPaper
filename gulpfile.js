@@ -14,6 +14,8 @@ var concat = require('gulp-concat');
 var jshint = require('gulp-jshint');
 var del = require('del');
 var pkg = require('./package.json');
+var browserSync = require('browser-sync');  //adding browsersync -eddie
+var reload = browserSync.reload;            // reload 
 
 var module_name = 'pw.canvas-painter';
 
@@ -89,6 +91,19 @@ gulp.task('lint', function() {
  */
 gulp.task('clean', ['min'], function () {
   return del(['./.tmp']);
+});
+
+/** adding browser sync -eddie
+*
+*/
+gulp.task('serve', function() {
+  browserSync({
+    server: {
+      baseDir: './'
+    }
+  });
+
+gulp.watch(['*.html','css/*.css', 'dist/*.js', 'js/*.js', 'templates/*.html', 'app/*.html', 'app/css/*.css', 'app/js/*.js',  ], {cwd: './'}, reload);
 });
 
 
