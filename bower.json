@@ -1,23 +1,22 @@
 {
-  "name": "angular-canvas-painter",
-  "version": "0.5.3",
+  "name": "SimplyPaper",
+  "version": "0.1.0",
   "authors": [
-    "Philipp Wambach"
+    "Eddie Dounn"
   ],
-  "description": "Angular module to easily paint on a canvas with mouse or touch devices",
+  "description": "As paper like as possible for mobile devices",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pwambach/angular-canvas-painter.git"
+    "url": "git@github.com:edounn/SimplyPaper.git"
   },
   "main": "dist/angular-canvas-painter.js",
   "keywords": [
-    "angular",
-    "canvas",
-    "directive",
+    "simplyPaper",
+    "mobile",
     "paint",
     "sketch",
     "draw",
-    "touch"
+    "simple"
   ],
   "ignore": [
   	".gitignore",
