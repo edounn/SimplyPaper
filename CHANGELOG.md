@@ -1,3 +1,25 @@
+
+<a name="0.1"></a>
+#forked at this point
+added screefull
+added browser sync
+added react/react-dom
+added react-input-slider
+added manifests  (still need some issues resolved on this)
+a lot of other changes and modifications made that hopefully i'll remember as I go and put in this
+
+# 0.5.3 (2015-11-09)
+
+## Bug fixes
+
+- Fix mouseenter/leave problems in firefox (thanks @w3sami)
+ ([#17](https://github.com/pwambach/angular-canvas-painter/pull/20))
+- Convert tabs to spaces
+
+
+
+
+
 <a name="0.5.3"></a>
 # 0.5.3 (2015-11-09)
 
